@@ -2,11 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/сolor_random_menu"
-        android:title="@string/title_color_random_menu"
+        android:title="@string/titleColorRandomMenu"
         />
 
     <item
         android:id="@+id/exit_random_menu"
-        android:title="@string/title_exit_random_menu"
+        android:title="@string/titleExitRandomMenu"
         />
 </menu>

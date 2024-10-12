@@ -8,10 +8,10 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/mark_ET"
+        android:id="@+id/markET"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/hint_mark_ET"
+        android:hint="@string/hintMarkET"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,24 +19,24 @@
         tools:ignore="Autofill,TextFields" />
 
     <TextView
-        android:id="@+id/random_number_TV"
+        android:id="@+id/randomNumberTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/text_random_number_TV"
+        android:hint="@string/textRandomNumberTV"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mark_ET" />
+        app:layout_constraintTop_toBottomOf="@+id/markET" />
 
     <Button
-        android:id="@+id/generate_BTN"
+        android:id="@+id/generateBTN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/text_generate_BTN"
+        android:text="@string/textGenerateBTN"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/random_number_TV" />
+        app:layout_constraintTop_toBottomOf="@+id/randomNumberTV" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
