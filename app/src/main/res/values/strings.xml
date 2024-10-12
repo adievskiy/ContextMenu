@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ContextMenu</string>
+    <string name="hint_mark_ET">Введите оценку</string>
+    <string name="title_color_quality_menu">Цветовое качество</string>
+    <string name="title_exit_mark_menu">Выход из приложения</string>
+    <string name="title_color_random_menu">Цветовое качество</string>
+    <string name="title_exit_random_menu">Выход из приложения</string>
+    <string name="text_generate_BTN">Сгенерировать случайное число</string>
+    <string name="text_random_number_TV">Сгенерируйте число кнопкой ниже</string>
+</resources>
